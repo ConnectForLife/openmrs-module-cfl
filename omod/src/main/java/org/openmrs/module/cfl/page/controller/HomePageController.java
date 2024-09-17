@@ -69,6 +69,7 @@ public class HomePageController {
 
     model.addAttribute("extensions", currentExtensions);
     model.addAttribute("authenticatedUser", Context.getAuthenticatedUser());
+    model.addAttribute("contextModel", contextModel);
 
     return null;
   }
