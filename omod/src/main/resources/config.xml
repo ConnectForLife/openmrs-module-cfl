@@ -86,6 +86,11 @@
         <class>org.openmrs.module.cfl.advice.AccountServiceAdvice</class>
     </advice>
 
+    <advice>
+        <point>org.openmrs.module.reporting.report.service.ReportService</point>
+        <class>org.openmrs.module.cfl.advice.LocationBasedReportRequests</class>
+    </advice>
+
     <!-- Internationalization -->
     <!-- All message codes should start with @MODULE_ID@.* -->
     <messages>
